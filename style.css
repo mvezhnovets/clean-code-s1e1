@@ -4,6 +4,12 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
+.main-title {
+  visibility: hidden;
+  height: 0;
+  width: 0;
+  margin: 0;
+}
 .aaa {
   width: 500px;
   margin: 0 auto;
@@ -38,7 +44,7 @@ ul {
   margin:0;
   padding: 0px;
 }
-li, h3 {
+li, h2 {
   list-style:none;
 }
 input,button{
@@ -57,7 +63,7 @@ button:hover {
   color: #3a3a3a;
 }
 /* Heading */
-h3,
+h2,
 label[for="new-task"] {
   color: #333;
   font-weight: 700;
