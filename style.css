@@ -24,7 +24,8 @@ body {
 }
 
 @media (max-width:768px) {
-  .header { text-align: center;
+  .header {
+    text-align: center;
   }
 }
 .main {
@@ -45,10 +46,12 @@ ul {
   margin: 0;
   padding: 0px;
 }
-li, h2 {
+li,
+h2 {
   list-style: none;
 }
-input,button{
+input,
+button{
   outline: none;
 }
 .btn {
