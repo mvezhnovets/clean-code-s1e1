@@ -22,7 +22,6 @@ body {
 .header__info {
   font-family: fantasy, cursive;
 }
-
 @media (max-width:768px) {
   .header {
     text-align: center;
@@ -91,7 +90,6 @@ button{
 .list__elem-task:focus {
   color: #333;
 }
-
 /* New Task */
 .section_add-task .section__title {
   display: block;
@@ -100,13 +98,11 @@ button{
 .section_add-task .list__elem-task {
   width: 318px;
 }
-
 /* Task list */
 .list__elem {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -119,7 +115,6 @@ button{
 .btn-delete__img {
   vertical-align: middle;
 }
-
 .list__elem-checkbox {
   margin: 0 10px;
 }
@@ -140,23 +135,19 @@ button{
 .btn-delete__img:hover {
   transform: rotateZ(0);
 }
-
 /* Completed */
 .list_completed .list__elem-label {
   text-decoration: line-through;
   color: #888;
 }
-
 /* Edit Task */
 .list .list__elem-task {
   display: none;
 }
-
 .list__elem_edit-mode .list__elem-task {
   display: inline-block;
   width: 224px;
 }
-
 .list__elem_edit-mode .list__elem-label {
   display: none;
 }
